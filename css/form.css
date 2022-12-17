@@ -1,0 +1,51 @@
+#inscription form label {
+  margin: 10px 0;
+}
+
+#inscription .conditions {
+  display: flex;
+}
+
+/* zone de la boîte d'inscription */
+#inscription .formInscrip {
+  /* couleur de fond du texte */
+  background-color: rgba(255, 0, 0, 0.4);
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.31);
+  border: solid 1px #ff313180;
+}
+
+.formInscrip form {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+/* lignes séparant les diverses sections */
+.formInscrip .ligne {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+/* dimensions des diverses boîtes */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  height: 25px;
+}
+
+#subEnvoi,
+#reset {
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+#subEnvoi {
+  background-color: rgb(69, 66, 255);
+}
+#reset {
+  background-color: rgb(255, 53, 53);
+}

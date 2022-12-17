@@ -1,0 +1,35 @@
+.texte {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.texte div {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 450px;
+}
+
+.quoi {
+  background-color: aqua;
+
+  /* Transformation origine */
+  transform: scale(1) translate(0);
+  /* Transition */
+  transition: all 2s;
+}
+.quoi:hover {
+  transform: scale(1.5) translate(-200px);
+}
+
+.deroulement {
+  background-color: rgb(255, 77, 77);
+
+  /* Transformation origine */
+  transform: scale(1) translate(0);
+  /* Transition */
+  transition: all 2s;
+}
+.deroulement:hover {
+  transform: scale(1.5) translate(200px);
+}

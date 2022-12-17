@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.piedUn {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.piedUn p {
+  width: 250px;
+  padding: 0 50px 0 50px;
+}
+.sociaux p {
+  display: inline-flex;
+  align-self: center;
+}
+
+.piedDeux p {
+  width: 50%;
+}
+.piedDeux span {
+  font-weight: bold;
+  text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+.fig_galerie {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fig_galerie figure {
+  flex: 0 1 200px;
+}
+
+.fig_galerie figure img {
+  /* Transformation origine */
+  transform: scale(1);
+  /* Transition */
+  transition: all 1s;
+}
+/* Transformation en passant notre souris sur une image */
+.fig_galerie figure img:hover {
+  transform: scale(1.5);
+}
